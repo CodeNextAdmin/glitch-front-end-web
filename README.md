@@ -1,3 +1,7 @@
-# glitch-front-end-web
+Team Edge Challenges
+=================
 
-Fron end demos and challenges for Google's Code Next Team Edge program.
+Here is the list of challenges for weeks 3-5
+
+The last week does not have any challenges.
+
