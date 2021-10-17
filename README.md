@@ -1,7 +1,4 @@
-Team Edge Challenges
+Team Edge Lab 10
 =================
 
-Here is the list of challenges for weeks 3-5
-
-The last week does not have any challenges.
 

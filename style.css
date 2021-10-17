@@ -1,165 +1,21 @@
 /* CSS files add styling rules to your content */
-  body {
-    background: linear-gradient(253deg, #0cc898, #1797d2, #864fe1);
-    background-size: 300% 300%;
-    -webkit-animation: Background 25s ease infinite;
-    -moz-animation: Background 25s ease infinite;
-    animation: Background 25s ease infinite;
-  }
-  
-  @-webkit-keyframes Background {
-    0% {
-      background-position: 0% 50%
-    }
-    50% {
-      background-position: 100% 50%
-    }
-    100% {
-      background-position: 0% 50%
-    }
-  }
-  
-  @-moz-keyframes Background {
-    0% {
-      background-position: 0% 50%
-    }
-    50% {
-      background-position: 100% 50%
-    }
-    100% {
-      background-position: 0% 50%
-    }
-  }
-  
-  @keyframes Background {
-    0% {
-      background-position: 0% 50%
-    }
-    50% {
-      background-position: 100% 50%
-    }
-    100% {
-      background-position: 0% 50%
-    }
-  }
-  
-  .full-screen {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: url(https://i.imgur.com/wCG2csZ.png);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column
-    /* works with row or column */
-    
-    flex-direction: column;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: left;
-    justify-content: center;
-    text-align: left;
-  }
-  
-  h1{
-    color: #fff;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 800;
-    font-size: 4em;
-    letter-spacing: 0px;
-    text-align: center;
-    text-shadow: 1px 2px 1px rgba(0, 0, 0, .6);
-  }
-  
-  h1:after {
-    display: block;
-    color: #fff;
-    letter-spacing: 1px;
-    font-family: 'Noto Sans', sans-serif;
-    content: 'Term 0 Demos and Challenges';
-    font-size: .4em;
-    text-align: center;
-    margin-bottom:-40px;
-  }
 
-h2{
-  color: #fff;
-    font-family: 'Noto Sans', sans-serif;
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background: #fff;
+  text-align: center;
+ 
+}
+
+h1 {
+  font-style: italic;
+  color: #f0f0f0;
+  margin: 0;
   text-align: center;
 }
 
 p{
   
-  font-family: 'Open Sans', sans-serif;
-  line-height: 14px;
-  color: #fff;
+  margin: -25px 50px 75px 100px; /* top, right, bottom, left */
 }
-
-.main{
-  
-    margin-top: 0px;
-    width: 90%;
-}
-
-
-  
- 
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  height:auto;
-  margin:20px;
-  border-style:solid;
-  border-width:1px;
-  border-color: #fff;
-  border-radius: 5px;
-  text-alignment: left;
-  padding: 20px;
-  
-}
-
-.column:hover{
-  border-color: #16acf7;
-  background-color:#16acf7;
-     opacity: 0.7;
-  
-}
-
-.lab-title{
-  
-      margin-top: 10px;
-    
-
-}
-
-a{
-  
-  text-decoration: none;
-}
-
-a:hover{
-
-   color:white;
-   text-shadow: 1px 2px 1px rgba(0, 0, 0, .6);
-}
-
-
- 
