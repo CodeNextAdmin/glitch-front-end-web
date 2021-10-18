@@ -1,3 +1,4 @@
-# glitch-front-end-web
+Team Edge Lab 10
+=================
 
-Fron end demos and challenges for Google's Code Next Team Edge program.
+
